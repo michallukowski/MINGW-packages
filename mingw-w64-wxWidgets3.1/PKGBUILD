@@ -18,9 +18,9 @@ _wx_buildver=
 
 pkgbase=mingw-w64-${_basename}${_wx_basever}
 pkgname="${MINGW_PACKAGE_PREFIX}-${_realname}${_wx_basever}"
-pkgver=${_wx_basever}.5
-pkgrel=6
-pkgdesc="A C++ library that lets developers create applications for Windows, Linux and UNIX (mingw-w64)"
+pkgver=${_wx_basever}.6
+pkgrel=1
+pkgdesc="wxWidgets is a free and open source cross-platform C++ framework for writing advanced GUI applications using native controls"
 arch=('any')
 mingw_arch=('mingw32' 'mingw64' 'ucrt64' 'clang64' 'clang32' 'clangarm64')
 url="https://wxwidgets.org/"
